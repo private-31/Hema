@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: #F991CC;
+    justify-content: center;
+}
+
+.message-box{
+    background-color: #E2AFDE;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+button{
+    background-color: #D3C2CE;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 5rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+p{
+    font-size: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
